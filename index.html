@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Welcome to Cosplay</title>
+<link href="style1.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+
+</head>
+ <body>
+	<header>
+    	<h1 style="color: #F08080;">CossiePlay</h1>
+        <nav>
+        	<ul>
+            	<li><a href="index.html" id="0" onClick="nav_li_selected(0)">Home</a></li>
+                <li><a href="about.html" id="1" onClick="nav_li_selected(1)">About Us</a></li>
+                <li><a href="guidelines.html" id="2" onClick="nav_li_selected(2)">Guidelines</a></li>
+                <li><a href="announcement.html" id="3" onClick="nav_li_selected(3)">Announcements</a></li>
+                 <li><a href="shopping.html" id="4" onClick="nav_li_selected(4)">Buy Here</a></li>
+                 <li><a href="contact.html" id="6" onClick="nav_li_selected(6)">Contact Us</a></li>
+                <li><a href="joinus.html" id="7" onClick="nav_li_selected(7)">Join Us</a></li>
+                
+              
+                </ul>
+                
+                
+        </nav>
+    </header>
+    <br>
+	<h1 style="text-align: center; font-size: 40px";>Welcome to the world of Cosplayers!</h1>
+    
+     <p>
+        
+Cosplay,a portmanteau of the words costume play, is a performance art in which participants called cosplayers wear costumes and fashion accessories to represent a specific character. Cosplayers often interact to create a subculture and a broader use of the term "cosplay" applies to any costumed role-playing in venues apart from the stage. Any entity that lends itself to dramatic interpretation may be taken up as a subject and it is not unusual to see genders switched. Favorite sources include manga and anime, comic books and cartoons, video games, and live-action films and television series.Get intereted,so we are here to help for your remould. 
+</p>
+    
+  <img class="mySlides" src="1.jpg" style="width:90%; height: 20%">
+  <img class="mySlides" src="2.jpg" style="width:90%; height: 20%">
+  <img class="mySlides" src="3.jpg" style="width:90%; height: 20%">
+  <img class="mySlides" src="4.jpg" style="width:90%; height: 20%">
+  <img class="mySlides" src="5.jpg" style="width:90%; height: 20%">
+  <img class="mySlides" src="6.jpg" style="width:90%; height: 20%">
+  <img class="mySlides" src="7.jpg" style="width:90%; height: 20%">
+  <img class="mySlides" src="8.jpg" style="width:90%; height: 20%">
+  <img class="mySlides" src="9.jpg" style="width:90%; height: 20%">
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+         
+       
+    
+    
+    <footer>Design By Cosplay||<a href="https://en.wikipedia.org/wiki/Cosplay">CosplayWiki</a>||<a href="http://www.cosplay.com">Cosplay Community</a>||<a href="cosplaytutorial.com/index.php">Cosplay Resource</a></footer>
+   
+</body>
+</html>

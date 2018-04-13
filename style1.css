@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+header {
+	background-color: maroon;);
+}
+header h1 {
+	padding-left: 5px;
+}
+header nav {
+	background-color:maroon;
+	height: 40px;
+}
+header nav ul li {
+  font-family: 'Sacramento', cursive;
+	color:white;
+	list-style:none;
+	float:left;
+	
+}
+
+body{background-image: url("background.jpg");
+font-family: 'Sacramento', cursive;
+color: maroon;}
+
+
+header nav ul li a {
+	font-family: 'Sacramento', cursive;
+	text-decoration:none;
+	display:block;
+	padding-left:18px;
+	padding-right:20px;
+	font-size:20px;
+	color:white;
+	
+}
+
+header nav ul li a:hover {
+	color:#7A6E6E;
+}
+footer {
+  position: fixed;
+  width: 100%;
+	clear: both;
+  bottom: 0;
+  text-align: center;
+	background-color:#DCD8D8;
+  font-family: 'Sacramento', cursive;
+}
+
+.mySlides {display:none;}
+
+
+
+h1,h2 {
+    color: maroon; font-family: 'Satisfy', cursive; 
+}
+p { color:maroon; font-family: 'Satisfy', cursive; font-size: 30px; margin: 30px;
+}
+th,td{
+
+	background-color:#5E4C4C;
+	background-size:auto;	
+
+	padding: 15px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	color:white;
+}
+
+
+
+
+*:focus {
+  outline: none;
+}
+
+
+
+
+h1 {
+  margin: 0 0 20px 0;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
